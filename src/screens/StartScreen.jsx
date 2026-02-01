@@ -2,9 +2,9 @@ export default function StartScreen({ onStart }) {
   return (
     <div style={styles.page}>
       <div style={styles.card}>
-        <h1 style={styles.title}>The Hailey Ultimate Valintine Quiz!</h1>
+        <h1 style={styles.title}>The Hailey Ultimate Valentine Quiz!</h1>
         <p style={styles.text}>
-          You must pass the quiz cheese.
+          You must pass the quiz, cheese.
         </p>
 
         <button style={styles.button} onClick={onStart}>
